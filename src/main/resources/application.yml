@@ -7,6 +7,15 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.SpringSerializer
       value-seralizer: org.apache.kafka.common.serialization.SpringSerializer
 
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: senhamongo
+      database: cliente_db
+      port: 27017
+      host: localhost
+
 topic:
   enderco-cliente: topic_endereco_cliente
 

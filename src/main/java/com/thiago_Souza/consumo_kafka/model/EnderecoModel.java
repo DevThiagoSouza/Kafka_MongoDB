@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Document
-public class enderecoModel {
+public class EnderecoModel {
 
     @Id
     private String id;
